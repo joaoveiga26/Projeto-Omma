@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+img {
+    width: 600px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    padding; 40px;
+    border-left: 3px solid #9c3;
+
+}
