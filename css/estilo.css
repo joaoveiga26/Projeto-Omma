@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat', sans-serif;
+}
+
+header .logo {
+    background-color: #FFC107;
+    text-align: center;
+}
+
+header .menu {
+    background-color: #FFA000;
+    display: flex; /*ativar o flexbox */
+    justify-content: center;
+}
+
+header .menu ul {
+    margin: 0;
+    list-style: none;
+}
+
+header .menu ul li {
+    display: inline-block;
+    padding: 10px 15px; /*espaçamento entre titulo. */
+}
+
+header .menu ul li a {
+    text-decoration: none; /*tirar sublinhado*/
+    color: #FDFDFD; /*muda a cor do texto*/
+}
+
+main section.banner{
+    height: 600px; /*altura*/
+    background-color: cadetblue;
+    background-image: url(../imagens/banner-home.png); /*imagem de fundo*/
+    background-repeat: no-repeat; /*não repetir a imagem*/
+    background-size:  cover; /*imagem vai cobrir todo o elemento*/
+}
+
+main section.banner .container {
+    display: flex;
+    justify-content: flex-end;/*alinhamento horinzontal pra direita*/
+    align-items: center; /*alinhamento vertical*/
+    height: 600px; /*altura*/
+}
+
+main section.banner h1{
+    font-size: 70px;
+    text-transform: lowercase;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    padding: 100px;
+}
